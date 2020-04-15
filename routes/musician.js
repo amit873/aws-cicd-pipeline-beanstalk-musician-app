@@ -6,7 +6,7 @@ const schema = require('../store/schema');
 
 // healthcheck
 router.get('/health', (req, res) => {
-  res.status('200').send("Status: ok! - Amit Kumar Gupta - Tested 16 April 2020");
+  res.status('200').send("Status: ok! - Amit Kumar Gupta - Added Code Deploy with Elastic Beanstalk");
 });
 
 // retrieve all musicians from data store
